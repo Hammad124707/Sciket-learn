@@ -1,0 +1,7 @@
+import sklearn
+
+we cant apply pandas methods and attribute on datasets related to sklearn so that we have to change the sciketlearn data in pandas data frame
+
+
+First we have estimators
+each estimator has a fit method
