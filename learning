@@ -8,6 +8,9 @@ iris.target_names #tells us hamare pass kon kon se target hein like 0,1,2. saari
 iris.feature_names #tellss us tha name of every column
 
 
+we use df.concat([], axis = 1) to combine 2 dataframes
+
+
 First we have estimators
 each estimator has a fit method
 
