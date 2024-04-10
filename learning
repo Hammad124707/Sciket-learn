@@ -2,6 +2,24 @@ import sklearn
 
 we cant apply pandas methods and attribute on datasets related to sklearn so that we have to change the sciketlearn data in pandas data frame
 
+iris.data   #all the data except values of x
+iris.target #our target column only
+iris.target_names #tells us hamare pass kon kon se target hein like 0,1,2. saari classes ke baree mein batata he
+iris.feature_names #tellss us tha name of every column
+
 
 First we have estimators
 each estimator has a fit method
+
+Secodnly we have transformers
+each preprocessors and transformer has a method known as transformer instead of fit method
+
+
+basically both of them have a same parent class known as BaseEstimator
+
+
+Cross validation: It is used to check the accuracy of our 
+
+Calling Models : from sklearn.linear_model import LinearRegiression
+
+Dimentionality Reduction: when we have to reduce the features in our dataset
